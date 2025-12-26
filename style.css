@@ -19,6 +19,7 @@ body {
     flex-direction: column;
     margin: 0;
     font-family: "Great Vibes", cursive;
+    font-size: 16px;
     background-image: url(Images/fundocottage.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -47,11 +48,11 @@ section {
 }
 
 .header h1 {
-  font-size: 75px;
+  font-size: 80px;
 }
 
 .header p {
-  font-size: 26px;
+  font-size: 28px;
 }
 
 .main {
@@ -59,20 +60,22 @@ section {
 }
 
 .quem-somos {
-  background-color: rgba(265, 243, 236, 0.92);
-  border: 2px solid #182518;
+  background-color: transparent;
+  border: none;
    color: rgb(35, 71, 28);
 }
 
 .quem-somos h2 {
-  font-size: 36px;
+  font-size: 40px;
   text-align: center;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .quem-somos p {
-  font-size: 25px; /* texto */
+  font-size: 30px; /* texto */
   line-height: 1.6; /* melhora a leitura */ 
   text-align: center;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .img {
@@ -140,6 +143,7 @@ section {
   margin-bottom: 0;
   padding-bottom: 20px;
 }
+
 
 
 
