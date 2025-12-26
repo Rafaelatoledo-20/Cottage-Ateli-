@@ -59,7 +59,7 @@ section {
 }
 
 .quem-somos {
-  background-color: #f5f6ec;
+  background-color: rgba(265, 243, 236, 0.92);
   border: 2px solid #182518;
    color: rgb(35, 71, 28);
 }
@@ -81,7 +81,7 @@ section {
 }
 
 .caixa-imagem {
-  background-color: #f5f6ec; /* Verde claro*/
+  background-color: rgba(265, 243, 236, 0.92);
   padding: 20px;
   border-radius: 15px;
   text-align: center;
@@ -140,6 +140,7 @@ section {
   margin-bottom: 0;
   padding-bottom: 20px;
 }
+
 
 
 
