@@ -11,7 +11,7 @@ html, body {
 * {
   margin: 0;
   padding: 0;
-  box-sizing: boder-box;
+  box-sizing: border-box;
 }
 
 body {
@@ -20,8 +20,9 @@ body {
     margin: 0;
     font-family: "Great Vibes", cursive;
     background-image: url(Images/fundocottage.jpg);
-    background-repeat: repeat;
-    background-size: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
     background-attachment: scroll;
     background-color: #f5f6ec;
     color: rgb(22, 48, 17);
@@ -140,10 +141,6 @@ section {
   padding-bottom: 20px;
 }
 
-@media (max-width: 768px) {
-  body {
-    background-image: url("Images/fundo.jpg");
-  }
 
 
 
