@@ -6,8 +6,13 @@
   box-sizing: boder-box;
 }
 
-body {
-    margin: 0;
+html {
+  width: 100%
+  height: 100%
+  overflow-x: hidden;
+}
+
+body }
     font-family: "Great Vibes", cursive;
     background-image: url(Imagens/fundocottage.jpg);
     background-repeat: repeat;
@@ -122,6 +127,7 @@ section {
   background-color: #f1f5ca;
   font-family: 'Times New Roman', Times, serif;
 }
+
 
 
 
