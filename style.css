@@ -21,6 +21,8 @@ html {
 }
 
 body }
+    display: flex;
+    flex-direction: column;
     font-family: "Great Vibes", cursive;
     background-image: url(Imagens/fundocottage.jpg);
     background-attachment: scroll;
@@ -137,6 +139,11 @@ section {
   font-family: 'Times New Roman', Times, serif;
 }
 
+.footer {
+  background-color: transparent;
+  margin-bottom: 0;
+  padding-bottom: 20px;
+}
 
 
 
