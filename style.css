@@ -51,7 +51,7 @@ section {
 }
 
 .quem-somos {
-  background-color: #f1f5ca;
+  background-color: #f5f6ec;
   border: 2px solid #182518;
    color: rgb(35, 71, 28);
   
@@ -74,7 +74,7 @@ section {
 }
 
 .caixa-imagem {
-  background-color: #f1f5ca; /* Verde claro*/
+  background-color: #f5f6ec; /* Verde claro*/
   padding: 20px;
   border-radius: 15px;
   text-align: center;
@@ -124,9 +124,10 @@ section {
 }
 
 .contact {
-  background-color: #f1f5ca;
+  background-color: #f5f6ec;
   font-family: 'Times New Roman', Times, serif;
 }
+
 
 
 
