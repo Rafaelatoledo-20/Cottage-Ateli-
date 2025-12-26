@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: boder-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Great Vibes", cursive;
+    background-image: url(Imagens/fundocottage.jpg);
+    background-repeat: repeat;
+    background-size: auto;
+    background-color: #f1f5ca;
+    color: rgb(22, 48, 17);
+}
+section {
+  max-width: 800px;
+  margin: 40px auto; /* separa os quadrados */
+  padding: 30px;
+  border: 2px solid #333;
+  border-radius: 12px;
+  background-color: #f5f3ec;
+}
+
+.header {
+  margin: 40px;
+  width: 60%;
+  margin: 40px auto;
+  text-align: center;
+  color: rgb(35, 71, 28);
+  max-width: 90%;
+}
+
+.header h1 {
+  font-size: 75px;
+}
+
+.header p {
+  font-size: 26px;
+}
+
+.main {
+  color: rgb(35, 71, 28);
+}
+
+.quem-somos {
+  background-color: #f1f5ca;
+  border: 2px solid #182518;
+   color: rgb(35, 71, 28);
+  
+}
+
+.quem-somos h2 {
+  font-size: 36px;
+  text-align: center;
+}
+
+.quem-somos p {
+  font-size: 25px; /* texto */
+  line-height: 1.6; /* melhora a leitura */ 
+  text-align: center;
+}
+
+.img {
+  max-width: 100%;
+  height: auto;
+}
+
+.caixa-imagem {
+  background-color: #f1f5ca; /* Verde claro*/
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+  color: #182518;
+}
+
+.caixa-imagem  img {
+  max-width: 70%;
+  height: auto;
+  font-size: 40px;
+}
+
+.caixa-imagem figcaption {
+  font-size: 25px; /* texto */
+}
+
+.caixa-imagem p {
+  color: #1f321f;
+  font-size: 30px;
+}
+
+.copyright {
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+}
+
+.container-botao {
+  display: flex;
+  justify-content: center;
+  font-family: 'Times New Roman', Times, serif;
+  color: #182518;
+  background-color: transparent;
+  padding: 0;
+  border: none;
+}
+
+.botao-orcamento {
+  display: inline-block;
+  background-color: #b96dbd;
+  color: #142114;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-size: clamp (16px, 3.5vw, 22px);
+  font-weight: bold;
+}
+
+.contact {
+  background-color: #f1f5ca;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+
+
