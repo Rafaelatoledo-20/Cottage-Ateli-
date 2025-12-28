@@ -249,27 +249,33 @@ section {
   padding: 0;
 }
 
+/* ===== AJUSTES FINAIS PARA CELULAR ===== */
 @media (max-width: 768px) {
 
-  /* TÍTULO DO SITE */
+  /* MENU já resolvido */
+  body {
+    padding-top: 70px;
+  }
+
+  /* TÍTULO DO SITE (MAIOR no celular) */
   .header h1 {
-    font-size: 42px;  /* 🔼 maior no celular */
+    font-size: 44px !important;
+    line-height: 1.1;
   }
 
   .header p {
-    font-size: 18px;
+    font-size: 18px !important;
   }
 
-  /* TÍTULO "QUEM SOMOS?" */
+  /* QUEM SOMOS */
   .quem-somos h2 {
-    font-size: 26px;  /* 🔽 menor que no desktop */
+    font-size: 26px !important;
   }
 
-  /* TEXTO DO QUEM SOMOS */
   .quem-somos p {
-    font-size: 18px;  /* 🔽 mais confortável no celular */
+    font-size: 17px !important;
     line-height: 1.5;
-    padding: 0 15px;
+    padding: 0 16px;
   }
 
   .quem-somos {
@@ -277,6 +283,7 @@ section {
     margin: 0 auto;
   }
 }
+
 
 
 
