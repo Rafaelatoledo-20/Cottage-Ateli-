@@ -211,52 +211,33 @@ section {
 /* ========== MOBILE ========== */
 @media (max-width: 768px) {
 
-  body {
-    padding-top: 120px;
-  }
-
   .menu {
-    padding: 8px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #b96dbd;
+    padding: 6px 0;
+    z-index: 1000;
   }
 
   .menu ul {
-    flex-direction: column;
+    display: flex;
+    flex-direction: row;      /* 🔥 NÃO empilha */
+    justify-content: space-around;
     align-items: center;
   }
 
   .menu li {
-    margin: 3px 0;
+    margin: 0;
   }
 
   .menu a {
     font-size: 16px;
-    padding: 6px 0;
+    padding: 6px;
   }
 
-  .header h1 {
-    font-size: 36px;
-  }
-
-  .header p {
-    font-size: 18px;
-  }
-
-  h2 {
-    font-size: 24px;
-  }
-
-  p {
-    font-size: 16px;
-    padding: 0 15px;
-  }
-
-  .carousel-container {
-    width: 100%;
-    max-width: 320px;
-  }
-
-  .caixa-imagem img {
-    max-width: 100%;
+  body {
+    padding-top: 70px;        /* 🔥 agora funciona */
   }
 }
 
@@ -265,6 +246,7 @@ section {
   background: transparent;
   padding: 0;
 }
+
 
 
 
