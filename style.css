@@ -212,7 +212,11 @@ section {
 @media (max-width: 768px) {
 
   body {
-    padding-top: 160px;
+    padding-top: 120px;
+  }
+
+  .menu {
+    padding: 8px 0;
   }
 
   .menu ul {
@@ -221,11 +225,12 @@ section {
   }
 
   .menu li {
-    margin: 5px 0;
+    margin: 3px 0;
   }
 
   .menu a {
-    font-size: 18px;
+    font-size: 16px;
+    padding: 6px 0;
   }
 
   .header h1 {
@@ -260,6 +265,7 @@ section {
   background: transparent;
   padding: 0;
 }
+
 
 
 
