@@ -15,6 +15,7 @@ html, body {
 }
 
 body {
+    padding-top: 90px;
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -27,6 +28,84 @@ body {
     background-attachment: scroll;
     background-color:#fbfdeb;
     color: rgb(22, 48, 17);
+}
+
+.carousel-container {
+  width: 420px;              /* 🔥 TRAVA O TAMANHO */
+  margin: 60px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.carousel-viewport {
+  width: 100%;
+  overflow: hidden;          /* 🔥 ESCONDE AS OUTRAS IMAGENS */
+}
+
+.carousel-track {
+  display: flex;
+  transition: transform 0.4s ease-in-out;
+}
+
+.carousel-track img {
+  width: 100%;               /* 🔥 CADA IMAGEM = TELA */
+  flex-shrink: 0;            /* 🔥 NÃO DEIXA ENCOLHER */
+  border-radius: 12px;
+}
+
+/* Setas */
+.arrow {
+  background: rgba(120, 60, 140, 0.6);
+  border: none;
+  color: white;
+  font-size: 28px;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.arrow:hover {
+  background: rgba(120, 60, 140, 0.9);
+}
+
+
+.menu {
+    background-color: #b96dbd;
+    position: fixed; /* fixa no topo */
+    top: 0;
+    width: 100%;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.menu li {
+    margin: 0 15px;
+}
+
+.menu a {
+    color: rgb(35, 71, 28);
+    text-decoration: none;
+    padding: 15px 0;
+    display: block;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.menu a:hover {
+    color: #00c3ff;
+}
+
+/* Espaço para o menu não cobrir o conteúdo */
+section {
+    padding: 80px 20px;
 }
 
 section {
@@ -143,6 +222,7 @@ section {
   margin-bottom: 0;
   padding-bottom: 20px;
 }
+
 
 
 
