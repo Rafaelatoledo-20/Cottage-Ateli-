@@ -8,10 +8,17 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
+        <nav class="menu">
+            <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="produtos.html">Produtos</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
         <!--TOPO-->
         <header class="header">
             <h1 class="titulo">Cottage Ateliê</h1>
-            <p class="subtitulo">(Criações delicadas e artesanais)</p>
+            <p class="subtitulo">Criações delicadas e artesanais</p>
         </header>
         <main>
         <!--QUEM SOMOS-->
@@ -23,15 +30,17 @@
             <h2><a href="https://w.app/czrnvy" target="_blank" class="botao-orcamento">Faça seu orçamento aqui!</a></h2>
         </section>
         <!--IMAGENS-DOS-PRODUTOS-->
-        <section class="caixa-imagem">
-            <p>Alguns dos nossos produtos</p><br>
-            <img src="Images/spto1.jpg.png"><br>
-            <figcaption>Sapatinho lilás de bebê 1</figcaption><br><br>
-            <img src="Images/bastidor.jpg"><br>
-            <figcaption>Bordado em bastidor</figcaption><br><br>
-            <img src="Images/spto2.jpg"><br>
-            <figcaption>Sapatinho lilás de bebê 2</figcaption><br>
-        </section>
+        <div class="carousel-container">
+        <button class="arrow left" onclick="moveSlide(-1)">&#10094;</button>
+        <div class="carousel-viewport">
+            <div class="carousel-track" id="carouselTrack">
+            <img src="Images/spto1.jpg.png">
+            <img src="Images/bastidor.jpg">
+            <img src="Images/spto2.jpg">
+            </div>
+        </div>
+        <button class="arrow right" onclick="moveSlide(1)">&#10095;</button>
+        </div>
         <!--INFORMAÇÕES DE CONTATO-->
         <section class="contact">
             <h2>Produtos sob encomenda ou pronta entrega. Faça o seu orçamento <a href="https://w.app/czrnvy" target="_blank">aqui</a>!</h2>
@@ -40,8 +49,28 @@
         <footer>
             <p class="copyright">&copy;2025. Criado por Rafaela Toledo.</p>
         </footer>
+        <script>
+            const track = document.getElementById('carouselTrack');
+            const slides = track.children;
+            let index = 0;
+
+            function moveSlide(direction) {
+                index += direction;
+
+                if (index < 0) {
+                index = slides.length - 1;
+                }
+
+                if (index >= slides.length) {
+                index = 0;
+                }
+
+                track.style.transform = `translateX(-${index * 100}%)`;
+            }
+        </script>
     </body>
 </html>
+
 
 
 
