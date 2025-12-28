@@ -211,6 +211,8 @@ section {
 /* ========== MOBILE ========== */
 @media (max-width: 768px) {
 
+
+
   .menu {
     position: fixed;
     top: 0;
@@ -246,6 +248,36 @@ section {
   background: transparent;
   padding: 0;
 }
+
+@media (max-width: 768px) {
+
+  /* TÍTULO DO SITE */
+  .header h1 {
+    font-size: 42px;  /* 🔼 maior no celular */
+  }
+
+  .header p {
+    font-size: 18px;
+  }
+
+  /* TÍTULO "QUEM SOMOS?" */
+  .quem-somos h2 {
+    font-size: 26px;  /* 🔽 menor que no desktop */
+  }
+
+  /* TEXTO DO QUEM SOMOS */
+  .quem-somos p {
+    font-size: 18px;  /* 🔽 mais confortável no celular */
+    line-height: 1.5;
+    padding: 0 15px;
+  }
+
+  .quem-somos {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+}
+
 
 
 
