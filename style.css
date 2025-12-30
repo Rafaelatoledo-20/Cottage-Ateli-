@@ -43,7 +43,7 @@ img {
 }
 
 /* MENU */
-.menu {
+.Home {
   background-color: #b96dbd;
   position: fixed;
   top: 0;
@@ -51,17 +51,17 @@ img {
   z-index: 1000;
 }
 
-.menu ul {
+.Home ul {
   list-style: none;
   display: flex;
   justify-content: center;
 }
 
-.menu li {
+.Home li {
   margin: 0 15px;
 }
 
-.menu a {
+.Home a {
   color: rgb(35, 71, 28);
   text-decoration: none;
   padding: 15px 0;
@@ -70,8 +70,74 @@ img {
   font-family: 'Times New Roman', Times, serif;
 }
 
-.menu a:hover {
+.Home a:hover {
   color: #b96dbd;
+}
+
+/*CONTATO*/
+.contato {
+   background-color: #b96dbd;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.contato ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.contato li {
+  margin: 0 15px;
+}
+
+.contato a {
+  color: rgb(35, 71, 28);
+  text-decoration: none;
+  padding: 15px 0;
+  display: block;
+  font-size: 22px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.contato a:hover {
+  color: #b96dbd;
+}
+
+
+/*PRODUTOS*/
+.produtos {
+   background-color: #b96dbd;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.produtos ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.produtos li {
+  margin: 0 15px;
+}
+
+.produtos a {
+  color: rgb(35, 71, 28);
+  text-decoration: none;
+  padding: 15px 0;
+  display: block;
+  font-size: 22px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.produtos a:hover {
+  color: #b96dbd;
+  text-decoration: underline;
 }
 
 /* HEADER */
@@ -220,7 +286,7 @@ section {
 
 
 
-  .menu {
+  .Home {
     position: fixed;
     top: 0;
     width: 100%;
@@ -229,18 +295,18 @@ section {
     z-index: 1000;
   }
 
-  .menu ul {
+  .Home ul {
     display: flex;
     flex-direction: row;      /* 🔥 NÃO empilha */
     justify-content: space-around;
     align-items: center;
   }
 
-  .menu li {
+  .Home li {
     margin: 0;
   }
 
-  .menu a {
+  .Home a {
     font-size: 16px;
     padding: 6px;
   }
